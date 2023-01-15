@@ -1,0 +1,464 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.content{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+
+}
+
+.container{
+
+    background-color:rgba(255, 144, 14, 0.1);
+}
+
+
+nav ul li{
+
+    display: inline-block;
+}
+
+nav ul li a{
+
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: #424242;
+    
+}
+
+.header-title{
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+   
+}
+
+.brand{
+
+    margin: 0 250px;
+}
+
+
+.title{
+
+    font-weight: 700;
+    font-size: 34px;
+    font-family: 'Work Sans', sans-serif;
+    color: #131313;
+}
+
+.text-area{
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+.para{
+
+    color: #727272;
+    margin-top: 10px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.btn{
+
+    margin-top: 10px;
+}
+
+.btn button{
+
+    background-color: #FF900E;
+    width: 120px;
+    height: 44px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+
+.div-1 img{
+
+    width: 1040px;
+    height: 500px;
+
+}
+
+.img-area{
+
+    margin: 50px 90px;
+}
+.container-1{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    margin: 50px 100px;
+    align-items: center;
+
+}
+
+.img-area-1{
+
+    display: flex;
+    grid-gap: 16px;
+
+}
+
+.img-1 img{
+
+    width: 250px;
+    border-radius: 8px;
+}
+
+.img-2 img{
+
+    width: 250px;
+    border-radius: 8px;
+}
+
+.img-3 img{
+
+    width: 250px;
+    border-radius: 8px;
+}
+
+.img-4 img{
+
+    width: 250px;
+    border-radius: 8px;
+}
+
+.para-1{
+
+    width: 574px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.text-area-1{
+
+    margin-left: 20px;
+
+}
+
+
+.frist-1{
+
+    color: #727272;
+}
+
+.second-1{
+
+    color: #FF900E;
+}
+
+
+.para-1{
+
+    color: #727272;
+    width: 500px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.btn-1 button{
+
+    width: 120px;
+    height: 34px;
+    border: none;
+    background-color: #FF900E;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.title-1{
+
+   font-weight: 500;
+   font-size: 45px;
+   font-family: 'Work Sans', sans-serif;
+
+}
+
+.blog{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+
+
+.smile img{
+
+    height: 630px;
+
+}
+
+.describstion{
+
+    margin: 30px 40px;
+}
+
+.line{
+
+    color: #727272;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 10px;
+}
+
+.enjoy{
+
+    font-size: 40px;
+    color: #131313;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.super-1{
+
+    height: 85px;
+    width: 586px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.super-2{
+
+    height: 85px;
+    width: 586px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.super-3{
+
+    height: 85px;
+    width: 586px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.super-4{
+
+    height: 85px;
+    width: 586px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.one,.two,.three,.four{
+    font-family:'Work Sans', sans-serif;
+}
+
+.one-1,.two-1,.three-3,.four-4{
+
+    font-family:'Work Sans', sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+ .kaku{
+
+    width: 202px;
+    height: 100px;
+    background-color: #FF900E;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+}
+
+.bt-5{
+
+   position: absolute;
+   margin-top: -100px;
+   margin-left: -40px;
+
+}
+
+.women{
+
+    margin-left: 50px;
+}
+
+.facts{
+
+    margin: 70px 50px;
+}
+
+.ever{
+
+    font-family:'Work Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.page{
+
+    color: #727272;
+    font-size: 15px;
+    font-family:'Work Sans', sans-serif;
+    margin-top: 10px;
+
+}
+
+.ico-1{
+
+    border: 1px solid #FF900E;
+    padding: 20px;
+    text-align: center;
+    font-family:'Work Sans', sans-serif;
+    border-radius: 8px;
+    
+}
+
+.ico-2{
+
+    border: 1px solid #FF900E;
+    padding: 20px;
+    text-align: center;
+    font-family:'Work Sans', sans-serif;
+    border-radius: 8px;
+}
+
+.ico-3{
+
+    border: 1px solid #FF900E;
+    padding: 20px;
+    text-align: center;
+    font-family:'Work Sans', sans-serif;
+    border-radius: 8px;
+}
+
+.ico-4{
+
+    border: 1px solid #FF900E;
+    padding: 20px;
+    text-align: center;
+    font-family:'Work Sans', sans-serif;
+    border-radius: 8px;
+}
+
+.icon-bar{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h2{
+
+    margin-top: 5px;
+    
+}
+
+.kik{
+
+    margin-top: 5px;
+    color: #727272;
+}
+
+.spand{
+
+    text-align: center;
+   
+}
+
+.ulta{
+
+    margin-top: 40px;
+    font-family:'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+
+.ultra-2{
+
+    color: #727272;
+    font-family:'Work Sans', sans-serif;
+    margin-top: 10px;
+
+}
+
+.online-paltform{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.last-one{
+
+    background-color: #FFF4E7;
+    width: 800px;
+    text-align: center;
+    margin: 20px 200px;
+}
+
+.all-right{
+
+    color:#131313;
+    padding: 15px;
+    font-family:'Work Sans', sans-serif;
+}
+
+.line2{
+    width: 4px;
+    height: 80px;
+    background-color:#FF900E;
+    margin-right: 20px;
+    margin-top: 10px;
+    
+}
+
+
+
+.enjoy{
+
+    display: flex;
+}
+
+@media screen and (max-width: 576px) {
+  
+    .content, .text-area{
+
+        flex-direction: column;
+    }
+}
+
